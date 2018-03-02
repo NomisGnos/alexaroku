@@ -1,0 +1,9 @@
+lambada/serverinfo.js
+nodejs/serverinfo.js
+node_modules
+.DS_Store
+.*.swp
+.idea/
+
+#Ignore any generated zip files in RokuLambda dir
+lambda/*.zip
