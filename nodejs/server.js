@@ -1,3 +1,5 @@
+var serverinfo = require("./serverinfo");
+var rokuChannel = require("./rokuchannels");
 var http = require('http');
 var fs = require('fs');
 var urllib = require("url");
@@ -7,8 +9,8 @@ var dgram = require('dgram');
 //null will cause the server to discover the Roku on startup, hard coding a value will allow for faster startups
 // When manually setting this, include the protocol, port, and trailing slash eg:
 // var rokuAddress = "http://192.168.1.100:8060/";
-var rokuAddress = null; 
-var PORT=1234; //this is the port you are enabling forwarding to. Reminder: you are port forwarding your public IP to the computer playing this script...NOT the roku IP
+var rokuAddress = serverinfo.rokuIPandPort; 
+var PORT=serverinfo.portForNodeServer; //this is the port you are enabling forwarding to. Reminder: you are port forwarding your public IP to the computer playing this script...NOT the roku IP
 
 var ssdp = new Client();
 
