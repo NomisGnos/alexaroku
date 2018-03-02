@@ -2,9 +2,9 @@ Hulu open hulu
 Hulu start hulu
 Hulu go to hulu
 
-Amazon open amazon
-Amazon start amazon
-Amazon go to amazon
+AmazonVideo open amazonvideo
+AmazonVideo start amazonvideo
+AmazonVideo go to amazonvideo
 
 YouTube open youtube
 YouTube start youtube
