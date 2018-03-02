@@ -1,5 +1,3 @@
-var APP_ID = "amzn1.ask.skill.f234023084808234234a08ed94324324723423"; //replace this with your app ID to make use of APP_ID verification
-
 var AlexaSkill = require("./AlexaSkill");
 var serverinfo = require("./serverinfo");
 var http = require("http");
@@ -9,7 +7,7 @@ if (serverinfo.host == "127.0.0.1") {
 }
 
 var AlexaRoku = function () {
-    AlexaSkill.call(this, APP_ID);
+    AlexaSkill.call(this, serverinfo.appID);
 };
 
 AlexaRoku.prototype = Object.create(AlexaSkill.prototype);
