@@ -13,7 +13,7 @@
       "slots": []
     },
     {
-      "intent": "Amazon",
+      "intent": "AmazonVideo",
       "slots": []
     },
     {
