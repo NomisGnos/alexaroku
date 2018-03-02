@@ -7,7 +7,7 @@ if (serverinfo.host == "127.0.0.1") {
 }
 
 var AlexaRoku = function () {
-    AlexaSkill.call(this, serverinfo.appID);
+    AlexaSkill.call(this, serverinfo.appId);
 };
 
 AlexaRoku.prototype = Object.create(AlexaSkill.prototype);
