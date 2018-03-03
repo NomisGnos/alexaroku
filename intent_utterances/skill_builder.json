@@ -1,436 +1,401 @@
 {
-  "languageModel": {
-    "types": [
-      {
-        "name": "LITERAL",
-        "values": []
-      }
-    ],
-    "intents": [
-      {
-        "name": "AMAZON.CancelIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.HelpIntent",
-        "samples": []
-      },
-      {
-        "name": "AMAZON.StopIntent",
-        "samples": []
-      },
-      {
-        "name": "AmazonVideo",
-        "samples": [
-          "open amazonvideo",
-          "start amazonvideo",
-          "go to amazonvideo"
+    "languageModel": {
+        "invocationName": "roku",
+        "intents": [
+            {
+                "name": "Home",
+                "slots": [],
+                "samples": [
+                    "home",
+                    "go home",
+                    "go to home"
+                ]
+            },
+            {
+                "name": "Pandora",
+                "slots": [],
+                "samples": [
+                    "open pandora",
+                    "start pandora",
+                    "go to pandora"
+                ]
+            },
+            {
+                "name": "Hulu",
+                "slots": [],
+                "samples": [
+                    "open hulu",
+                    "start hulu",
+                    "go to hulu"
+                ]
+            },
+            {
+                "name": "AmazonVideo",
+                "slots": [],
+                "samples": [
+                    "open amazonvideo",
+                    "start amazonvideo",
+                    "go to amazonvideo"
+                ]
+            },
+            {
+                "name": "Plex",
+                "slots": [],
+                "samples": [
+                    "open plex",
+                    "start plex",
+                    "go to plex"
+                ]
+            },
+            {
+                "name": "HBO",
+                "slots": [],
+                "samples": [
+                    "open aitch bee o",
+                    "start aitch bee o",
+                    "go to aitch bee o"
+                ]
+            },
+            {
+                "name": "TV",
+                "slots": [],
+                "samples": [
+                    "open tv",
+                    "start tv",
+                    "go to tv"
+                ]
+            },
+            {
+                "name": "Netflix",
+                "slots": [],
+                "samples": [
+                    "open netflix",
+                    "start netflix",
+                    "go to netflix"
+                ]
+            },
+            {
+                "name": "FX",
+                "slots": [],
+                "samples": [
+                    "open eff x",
+                    "start eff x",
+                    "go to eff x"
+                ]
+            },
+            {
+                "name": "FourK",
+                "slots": [],
+                "samples": [
+                    "open four k",
+                    "start four k",
+                    "go to four k"
+                ]
+            },
+            {
+                "name": "Fastforward",
+                "slots": [],
+                "samples": [
+                    "fast forward",
+                    "skip ahead",
+                    "move ahead"
+                ]
+            },
+            {
+                "name": "Instantreplay",
+                "slots": [],
+                "samples": [
+                    "skip back",
+                    "instant replay"
+                ]
+            },
+            {
+                "name": "Captionson",
+                "slots": [],
+                "samples": [
+                    "turn on captions"
+                ]
+            },
+            {
+                "name": "Captionsoff",
+                "slots": [],
+                "samples": [
+                    "turn off captions"
+                ]
+            },
+            {
+                "name": "Rewind",
+                "slots": [],
+                "samples": [
+                    "rewind",
+                    "move back"
+                ]
+            },
+            {
+                "name": "Up",
+                "slots": [],
+                "samples": [
+                    "go up",
+                    "move up"
+                ]
+            },
+            {
+                "name": "Uptwo",
+                "slots": [],
+                "samples": [
+                    "go up two",
+                    "move up two"
+                ]
+            },
+            {
+                "name": "Upthree",
+                "slots": [],
+                "samples": [
+                    "go up three",
+                    "move up three"
+                ]
+            },
+            {
+                "name": "Upfour",
+                "slots": [],
+                "samples": [
+                    "go up four",
+                    "move up four"
+                ]
+            },
+            {
+                "name": "Upfive",
+                "slots": [],
+                "samples": [
+                    "go up five",
+                    "move up five"
+                ]
+            },
+            {
+                "name": "Down",
+                "slots": [],
+                "samples": [
+                    "go down",
+                    "move down"
+                ]
+            },
+            {
+                "name": "Downtwo",
+                "slots": [],
+                "samples": [
+                    "go down two",
+                    "move down two"
+                ]
+            },
+            {
+                "name": "Downthree",
+                "slots": [],
+                "samples": [
+                    "go down three",
+                    "move down three"
+                ]
+            },
+            {
+                "name": "Downfour",
+                "slots": [],
+                "samples": [
+                    "go down four",
+                    "move down four"
+                ]
+            },
+            {
+                "name": "Downfive",
+                "slots": [],
+                "samples": [
+                    "go down five",
+                    "move down five"
+                ]
+            },
+            {
+                "name": "Left",
+                "slots": [],
+                "samples": [
+                    "go left",
+                    "move left"
+                ]
+            },
+            {
+                "name": "Lefttwo",
+                "slots": [],
+                "samples": [
+                    "go left two",
+                    "move left two"
+                ]
+            },
+            {
+                "name": "Leftthree",
+                "slots": [],
+                "samples": [
+                    "go left three",
+                    "move left three"
+                ]
+            },
+            {
+                "name": "Leftfour",
+                "slots": [],
+                "samples": [
+                    "go left four",
+                    "move left four"
+                ]
+            },
+            {
+                "name": "Leftfive",
+                "slots": [],
+                "samples": [
+                    "go leftfive",
+                    "move leftfive"
+                ]
+            },
+            {
+                "name": "Right",
+                "slots": [],
+                "samples": [
+                    "go right",
+                    "move right"
+                ]
+            },
+            {
+                "name": "Righttwo",
+                "slots": [],
+                "samples": [
+                    "go right two",
+                    "move right two"
+                ]
+            },
+            {
+                "name": "Rightthree",
+                "slots": [],
+                "samples": [
+                    "go right three",
+                    "move right three"
+                ]
+            },
+            {
+                "name": "Rightfour",
+                "slots": [],
+                "samples": [
+                    "go right four",
+                    "move right four"
+                ]
+            },
+            {
+                "name": "Rightfive",
+                "slots": [],
+                "samples": [
+                    "go right five",
+                    "move right five"
+                ]
+            },
+            {
+                "name": "Back",
+                "slots": [],
+                "samples": [
+                    "go back",
+                    "move back",
+                    "go back",
+                    "back up",
+                    "return"
+                ]
+            },
+            {
+                "name": "Power",
+                "slots": [],
+                "samples": [
+                    "turn off",
+                    "fuck off",
+                    "goodbye"
+                ]
+            },
+            {
+                "name": "YouTube",
+                "slots": [],
+                "samples": [
+                    "open youtube",
+                    "start youtube",
+                    "go to youtube"
+                ]
+            },
+            {
+                "name": "Select",
+                "slots": [],
+                "samples": [
+                    "go",
+                    "enter",
+                    "select",
+                    "yes"
+                ]
+            },
+            {
+                "name": "Type",
+                "slots": [
+                    {
+                        "name": "Text",
+                        "type": "AMAZON.LITERAL"
+                    }
+                ],
+                "samples": [
+                    "type {Iron Man|Text}"
+                ]
+            },
+            {
+                "name": "PlayPause",
+                "slots": [],
+                "samples": [
+                    "play",
+                    "pause",
+                    "stop"
+                ]
+            },
+            {
+                "name": "SearchRoku",
+                "slots": [
+                    {
+                        "name": "Text",
+                        "type": "AMAZON.LITERAL"
+                    }
+                ],
+                "samples": [
+                    "play {Doctor Strange|Text}"
+                ]
+            },
+            {
+                "name": "Search",
+                "slots": [
+                    {
+                        "name": "Text",
+                        "type": "AMAZON.LITERAL"
+                    }
+                ],
+                "samples": [
+                    "search {SpiderMan Homecoming|Text}"
+                ]
+            },
+            {
+                "name": "Playlastyoutube",
+                "slots": [],
+                "samples": [
+                    "play last video on youtube",
+                    "play the last video on youtube"
+                ]
+            },
+            {
+                "name": "SearchPlex",
+                "slots": [
+                    {
+                        "name": "Text",
+                        "type": "AMAZON.LITERAL"
+                    }
+                ],
+                "samples": [
+                    "play {Guardians of the Galaxy|Text} on plex"
+                ]
+            }
         ],
-        "slots": []
-      },
-      {
-        "name": "Back",
-        "samples": [
-          "go back",
-          "move back",
-          "back up",
-          "return"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Captionsoff",
-        "samples": [
-          "turn off captions"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Captionson",
-        "samples": [
-          "turn on captions"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Down",
-        "samples": [
-          "go down",
-          "move down"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Downfive",
-        "samples": [
-          "go down five",
-          "move down five"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Downfour",
-        "samples": [
-          "go down four",
-          "move down four"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Downthree",
-        "samples": [
-          "go down three",
-          "move down three"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Downtwo",
-        "samples": [
-          "go down two",
-          "move down two"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Fastforward",
-        "samples": [
-          "fast forward",
-          "skip ahead",
-          "move ahead"
-        ],
-        "slots": []
-      },
-      {
-        "name": "FourK",
-        "samples": [
-          "open four k",
-          "start four k",
-          "go to four k"
-        ],
-        "slots": []
-      },
-      {
-        "name": "FX",
-        "samples": [
-          "open eff x",
-          "start eff x",
-          "go to eff x"
-        ],
-        "slots": []
-      },
-      {
-        "name": "HBO",
-        "samples": [
-          "open aitch bee o",
-          "start aitch bee o",
-          "go to aitch bee o"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Home",
-        "samples": [
-          "home",
-          "go home",
-          "go to home"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Hulu",
-        "samples": [
-          "open hulu",
-          "start hulu",
-          "go to hulu"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Instantreplay",
-        "samples": [
-          "skip back",
-          "instant replay"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Left",
-        "samples": [
-          "go left",
-          "move left"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Leftfive",
-        "samples": [
-          "go leftfive",
-          "move leftfive"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Leftfour",
-        "samples": [
-          "go left four",
-          "move left four"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Leftthree",
-        "samples": [
-          "go left three",
-          "move left three"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Lefttwo",
-        "samples": [
-          "go left two",
-          "move left two"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Netflix",
-        "samples": [
-          "open netflix",
-          "start netflix",
-          "go to netflix"
-        ],
-        "slots": []
-      },
-      {
-        "name": "None",
-        "samples": [],
-        "slots": []
-      },
-      {
-        "name": "Pandora",
-        "samples": [
-          "open pandora",
-          "start pandora",
-          "go to pandora"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Playlastyoutube",
-        "samples": [
-          "play last video on youtube",
-          "play the last video on youtube"
-        ],
-        "slots": [
-          {
-            "name": "Text",
-            "type": "LITERAL"
-          }
-        ]
-      },
-      {
-        "name": "PlayPause",
-        "samples": [
-          "play",
-          "pause",
-          "stop"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Plex",
-        "samples": [
-          "open plex",
-          "start plex",
-          "go to plex"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Power",
-        "samples": [
-          "turn off",
-          "fuck off",
-          "goodbye"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Rewind",
-        "samples": [
-          "rewind",
-          "move back"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Right",
-        "samples": [
-          "go right",
-          "move right"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Rightfive",
-        "samples": [
-          "go right five",
-          "move right five"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Rightfour",
-        "samples": [
-          "go right four",
-          "move right four"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Rightthree",
-        "samples": [
-          "go right three",
-          "move right three"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Righttwo",
-        "samples": [
-          "go right two",
-          "move right two"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Search",
-        "samples": [
-          "search {santa claus|Text}",
-          "type {harry potter|Text}"
-        ],
-        "slots": [
-          {
-            "name": "Text",
-            "type": "LITERAL"
-          }
-        ]
-      },
-      {
-        "name": "SearchPlex",
-        "samples": [
-          "play {frequently asked questions about time travel|Text} on plex",
-          "play {santa claus|Text} on plex",
-          "play {gilmore girls|Text} on plex",
-          "play {harry potter|Text} on plex"
-        ],
-        "slots": [
-          {
-            "name": "Text",
-            "type": "LITERAL"
-          }
-        ]
-      },
-      {
-        "name": "SearchRoku",
-        "samples": [
-          "play {frequently asked questions about time travel|Text}",
-          "play {santa claus|Text}",
-          "play {gilmore girls|Text}",
-          "play {harry potter|Text}"
-        ],
-        "slots": [
-          {
-            "name": "Text",
-            "type": "LITERAL"
-          }
-        ]
-      },
-      {
-        "name": "Select",
-        "samples": [
-          "go",
-          "enter",
-          "select",
-          "yes"
-        ],
-        "slots": []
-      },
-      {
-        "name": "TV",
-        "samples": [
-          "open tv",
-          "start tv",
-          "go to tv"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Type",
-        "samples": [
-          "type {futurama|Text}",
-          "type {How I met your mother|Text}",
-          "type {harry potter|Text}"
-        ],
-        "slots": [
-          {
-            "name": "Text",
-            "type": "LITERAL"
-          }
-        ]
-      },
-      {
-        "name": "Up",
-        "samples": [
-          "go up",
-          "move up"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Upfive",
-        "samples": [
-          "go up five",
-          "move up five"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Upfour",
-        "samples": [
-          "go up four",
-          "move up four"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Upthree",
-        "samples": [
-          "go up three",
-          "move up three"
-        ],
-        "slots": []
-      },
-      {
-        "name": "Uptwo",
-        "samples": [
-          "go up two",
-          "move up two"
-        ],
-        "slots": []
-      },
-      {
-        "name": "YouTube",
-        "samples": [
-          "open youtube",
-          "start youtube",
-          "go to youtube"
-        ],
-        "slots": []
-      }
-    ],
-    "invocationName": "roku"
-  }
+        "types": []
+    }
 }
